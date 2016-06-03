@@ -1,0 +1,70 @@
+<div>
+    <div class="header-title">MERVE YÜKSEL</div>
+    <img class="header-pic" src="app/assets/img/pic.png">
+</div>
+
+<div class="container-line">
+    <div class="title">CONTACTS</div>
+    <header-directive ng-if="HomeVm.data.contacts" contacts="HomeVm.data.contacts"></header-directive>
+</div>
+
+<div class="container-line">
+    <div class="title">BRIEF</div>
+    <p>{{HomeVm.data.brief}}</p>
+</div>
+
+<div class="container-line">
+    <div class="title">COMPANY</div>
+    <ul>
+        <li ng-repeat="experience in HomeVm.data.experiences" class="container-line-box">
+            <span>Company: </span>{{experience.company}}
+            </br>
+            <span>Start Date: </span>{{experience.startDate}}
+            </br>
+            <span>End Date: </span>{{experience.endDate}}
+            </br>
+            <span>Position: </span>{{experience.position}}
+            <br>
+            <span>Responsibility: </span>{{experience.responsibility}}
+        </li>
+    </ul>
+</div>
+
+<div class="container-line">
+    <div class="title">PROJECT</div>
+    <ul>
+        <li ng-repeat="project in HomeVm.data.projects" class="container-line-box">
+            <span>Name: </span>{{project.name}}
+            </br>
+            <span>Description: </span>{{project.description}}
+            </br>
+            <span>Company: </span>{{project.company}}
+            </br>
+            <span>URL: </span>{{project.url}}
+        </li>
+    </ul>
+</div>
+
+<div class="container-line">
+    <div class="title">EDUCATIONS</div>
+    <ul>
+        <li ng-repeat="educations in HomeVm.data.education" class="container-line-box">
+            <span>Institution: </span>{{educations.institution}}
+            </br>
+            <span>Start Date: </span>{{educations.startDate}}
+            </br>
+            <span>End Date: </span>{{educations.endDate}}
+            </br>
+            <span>Degree: </span>{{educations.degree}}
+        </li>
+    </ul>
+</div>
+
+<div class="container-line">
+    <div class="title">SKILLS</div>
+    <ul>
+        <li ng-repeat="skill in HomeVm.data.skills" class="container-line-box">
+            {{skill}}
+        </li>
+    </ul>
+</div>

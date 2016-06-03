@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <title>MERVE YÜKSEL</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" href="app/assets/font-awesome/css/font-awesome.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+    <link href='//fonts.googleapis.com/css?family=Kristi|Alegreya+Sans:300' rel='stylesheet' type='text/css'>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.18/angular-ui-router.min.js"></script>
+</head>
+<body ng-controller="MainCtrl as MainVm">
+<div class="container">
+        <div ui-view></div>
+</div>
+</body>
+<script src="app/app.js"></script>
+<script src="app/modules/MainController.js"></script>
+<script src="app/modules/home/HomeController.js"></script>
+<script src="app/services/ApiService.js"></script>
+<script src="app/directives/header/header.js"></script>
+</html>

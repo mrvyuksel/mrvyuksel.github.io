@@ -1,0 +1,7 @@
+<header>
+    <ul>
+        <li ng-repeat="contact in HeaderDirectiveVm.contacts">
+            <a ng-href="{{contact.value}}" target="_blank" class="{{contact.icon}}">{{contact.title}}</a>
+        </li>
+    </ul>
+</header>

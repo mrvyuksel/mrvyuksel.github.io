@@ -1,0 +1,78 @@
+{
+  "contacts": {
+    "email": {
+      "title": "E-Mail",
+      "value": "mailto:merve.yuksel@gkfx.com",
+      "icon": "fa fa-envelope-square"
+    },
+    "facebook": {
+      "title": "Facebook",
+      "value": "https://www.facebook.com/merweyuxel",
+      "icon": "fa fa-facebook-square"
+    },
+    "github": {
+      "title": "Github",
+      "value": "https://github.com/mrvyuksel",
+      "icon": "fa fa-github-square"
+    },
+    "instagram": {
+      "title": "Instagram",
+      "value": "https://www.instagram.com/mrvyuksel93/",
+      "icon": "fa fa-instagram"
+    },
+    "linkedin": {
+      "title": "Linkedin",
+      "value": "https://www.linkedin.com",
+      "icon": "fa fa-linkedin-square"
+    },
+    "twitter": {
+      "title": "Twitter",
+      "value": "https://twitter.com/MerweYksel?lang=en",
+      "icon": "fa fa-twitter-square"
+    }
+  },
+  "brief": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+  "experiences": [
+    {
+      "company": "GKFX",
+      "startDate": "11.10.2015",
+      "endDate": "11.10.20156",
+      "position": "Front End Developer",
+      "responsibility": "Lorem ipsum dolar"
+    },
+    {
+      "company": "GKFX2",
+      "startDate": "11.10.2015",
+      "endDate": "11.10.2016",
+      "position": "Front End Developer",
+      "responsibility": "Lorem ipsum dolar"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Global Gkfx Website",
+      "description": "Global Gkfx Website Description",
+      "company": "GKFX",
+      "url": "gkfx.com"
+    },
+    {
+      "name": "Fortytwo Dashboard",
+      "description": "Gkfx Management Panel",
+      "company": "GKFX",
+      "url": "deneme.com"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Beykent University, Istanbul, TURKEY",
+      "startDate": "10.09.2014",
+      "endDate": "10.06.2012",
+      "degree": "sdfgsdgf"
+    }
+  ],
+  "skills": [
+    "AngularJs",
+    "Html",
+    "Css/Less"
+  ]
+}
